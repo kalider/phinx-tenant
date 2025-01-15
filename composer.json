@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "symfony/console": "^7.2",
+        "symfony/console": "^6.0|^7.0",
         "robmorgan/phinx": "*"
     },
     "suggest": {
