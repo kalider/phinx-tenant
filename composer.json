@@ -1,0 +1,25 @@
+{
+    "name": "kalider/phinx-tenant",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kalider\\PhinxTenant\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sapotong",
+            "email": "new.m.tah@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^7.2",
+        "robmorgan/phinx": "*"
+    },
+    "suggest": {
+        "ext-pdo": "PDO extension is needed"
+    },
+    "bin": [
+        "bin/phinx-tenant"
+    ]
+}

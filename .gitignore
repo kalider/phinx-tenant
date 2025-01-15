@@ -1,0 +1,6 @@
+/vendor/
+
+/db/development_db.sqlite
+/db/produciton_db.sqlite
+
+/example/
